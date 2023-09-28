@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Mohit Singh";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#icon").attr("href", "assets/images/icon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#icon").attr("href", "assets/images/favhand.png");
         }
     });
 
@@ -107,7 +107,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 10).forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -162,13 +162,13 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 
 // pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
-// function fadeOut() {
-//     setInterval(loader, 500);
-// }
-// window.onload = fadeOut;
+function loader() {
+    document.querySelector('.loader-container').classList.add('fade-out');
+}
+function fadeOut() {
+    setInterval(loader, 500);
+}
+window.onload = fadeOut;
 // pre loader end
 
 // disable developer mode
