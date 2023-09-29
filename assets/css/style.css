@@ -459,6 +459,7 @@ header .navbar ul li a:hover {
 /* about section ends */
 
 /* skills section starts */
+
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -513,7 +514,23 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills .container .row {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
+  }
+  .skills .container {
+    margin-top: 2px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
   .skills .container {
     padding: 0;
     margin: 0;
@@ -521,11 +538,11 @@ header .navbar ul li a:hover {
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
   }
   .skills .container {
-    margin-top: 5px;
+    margin-top: 2px;
     width: 100%;
   }
 }
