@@ -10,6 +10,16 @@
     }
   },
   {
+    "name": "PG-Life Website",
+    "desc": "PGLife website is created using React ,PHP for students to search for good accommodation when they join college/university.",
+    "image": "pglife",
+    "category": "SCRATCH",
+    "links": {
+      "view": "https://mypglifewebsite.000webhostapp.com/",
+      "code": "https://github.com/MahiTzy/PG-Life"
+    }
+  },
+  {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "prtfolio",
@@ -28,15 +38,5 @@
       "view": "https://mahitzy.github.io/JavaScript-Projects/",
       "code": "https://github.com/MahiTzy/JavaScript-Projects"
     }
-  },
-  {
-    "name":"PG-Life Website",
-    "desc":"PGLife website is created using React ,PHP for students to search for good accommodation when they join college/university.",
-    "image":"pglife",
-    "category":"SCRATCH",
-    "links":{
-      "view":"https://mypglifewebsite.000webhostapp.com/",
-      "code":"https://github.com/MahiTzy/PG-Life"
   }
-}
 ]
