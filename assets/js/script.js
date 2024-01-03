@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Mohit Singh";
+            document.title = "Mohit Singh | Developer";
             $("#icon").attr("href", "assets/images/icon.png");
         }
         else {
