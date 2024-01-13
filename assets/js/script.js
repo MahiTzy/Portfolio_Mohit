@@ -127,7 +127,7 @@ function showProjects(projects) {
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
+        max: 10,
     });
     // <!-- tilt js effect ends -->
 

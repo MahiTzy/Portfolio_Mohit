@@ -201,7 +201,7 @@ header .navbar ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   background-image: linear-gradient(
     180deg,
     #ffffff 0%,
@@ -244,7 +244,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: rgb(255, 102, 0);
+  color: rgb(148, 8, 8);
 }
 .home .content p {
   font-size: 2.5rem;
@@ -254,7 +254,7 @@ header .navbar ul li a:hover {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #ffdf6b;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -894,7 +894,7 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experience .content {
-  background-color: #bca70cba;
+  background-color: #F5E279;
   position: relative;
   border-radius: 6px;
 }
