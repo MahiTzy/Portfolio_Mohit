@@ -1,4 +1,2 @@
 User-agent: *
 Sitemap: https://portfolio-mohit-one.vercel.app/sitemap.xml
-Sitemap: https://www.instagram.com/mystiquemahi.dev/
-
