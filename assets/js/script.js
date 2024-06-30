@@ -69,7 +69,7 @@ document.addEventListener('visibilitychange',
     });
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["web development","frontend development", "backend development", "web designing"],
+    strings: ["web development", "java development", "web designing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -105,7 +105,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 4).forEach(project => {
+    projects.forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -226,11 +226,10 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.work .box-container', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .con', { delay: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });

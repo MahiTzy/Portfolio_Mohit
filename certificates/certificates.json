@@ -1,0 +1,30 @@
+[
+  {
+    "image": "assets/images/certificates/spring_basics.png",
+    "name": "Spring 5 Basics with Springboot"
+  },
+  {
+    "image": "assets/images/certificates/java_fundamental.png",
+    "name": "Java Fundamentals"
+  },
+  {
+    "image": "assets/images/certificates/angular.png",
+    "name": "Angular Mastery"
+  },
+  {
+    "image": "assets/images/certificates/typescript.png",
+    "name": "Typescript Mastery"
+  },
+  {
+    "image": "assets/images/certificates/internshala-webdev.png",
+    "name": "Internshala Web Development"
+  },
+  {
+    "image": "assets/images/certificates/frontend_libraries.png",
+    "name": "Frontend Libraries Mastery"
+  },
+  {
+    "image": "assets/images/certificates/responsive_webdesign.png",
+    "name": "Responsive Web Design Mastery"
+  }
+]

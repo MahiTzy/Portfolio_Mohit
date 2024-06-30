@@ -1,12 +1,32 @@
 [
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using WAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
+    "name": "E-Medic Website",
+    "desc": "A comprehensive web application for making appointments managing medical records and patient information.",
+    "image": "emedic",
     "category": "wamp",
     "links": {
-      "view": "https://myfcsite.000webhostapp.com/",
-      "code": "https://github.com/MahiTzy/Flipkart-Clone-PHP"
+      "view": "#",
+      "code": "https://github.com/MahiTzy/E-Medic-SpringBoot-Project.git"
+    }
+  },
+  {
+    "name": "Smart Contact Manager",
+    "desc": "A web application for managing personal and professional contacts.",
+    "image": "scm",
+    "category": "wamp",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/MahiTzy/smartcontactmanager.git"
+    }
+  },
+  {
+    "name": "Online Examination System",
+    "desc": "A web-based platform for conducting online exams and assessments.",
+    "image": "oes",
+    "category": "wamp",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/MahiTzy/OnlineExaminationSystem-JSP-MySQL.git"
     }
   },
   {

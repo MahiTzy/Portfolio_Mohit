@@ -1,75 +1,98 @@
 [
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Tailwind",
-        "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"
-    },
-    {
-        "name": "Postman",
-        "icon": "https://github.com/MahiTzy/Portfolio_Mohit/assets/116704676/b30cc6bd-5278-414f-88ac-38d062ee24cb"
-    },
-    {
-        "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
-
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    },
-    {
-        "name": "Docker",
-        "icon": "https://img.icons8.com/color/48/000000/docker.png"
-    }
+  {
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
+  {
+    "name": "Postman",
+    "icon": "https://github.com/MahiTzy/Portfolio_Mohit/assets/116704676/b30cc6bd-5278-414f-88ac-38d062ee24cb"
+  },
+  {
+    "name": "Spring",
+    "icon": "https://img.icons8.com/?size=48&id=90519&format=png&color=000000"
+  },
+  {
+    "name": "Java",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "AngularJS",
+    "icon": "https://img.icons8.com/?size=48&id=71257&format=png&color=000000"
+  },
+  {
+    "name": "Typescript",
+    "icon": "https://img.icons8.com/?size=48&id=HcQEdKCkXUs3&format=png&color=000000"
+  },
+  {
+    "name": "ReactJS",
+    "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+  },
+  {
+    "name": "jQuery",
+    "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+  },
+  {
+    "name": "PHP",
+    "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+  },
+  {
+    "name": "C++",
+    "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "https://img.icons8.com/?size=48&id=38561&format=png&color=000000"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+  },
+  {
+    "name": "Git VCS",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "Docker",
+    "icon": "https://img.icons8.com/color/48/000000/docker.png"
+  },
+  {
+    "name": "Jenkins",
+    "icon": "https://img.icons8.com/?size=48&id=39292&format=png&color=000000"
+  },
+  {
+    "name": "Heroku",
+    "icon": "https://img.icons8.com/?size=48&id=31085&format=png&color=000000"
+  },
+  {
+    "name": "AWS",
+    "icon": "https://img.icons8.com/?size=48&id=33039&format=png&color=000000"
+  }
 ]
