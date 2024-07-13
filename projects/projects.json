@@ -5,7 +5,7 @@
     "image": "emedic",
     "category": "wamp",
     "links": {
-      "view": "#",
+      "view": "https://emedicapp-52b343fd56d3.herokuapp.com/",
       "code": "https://github.com/MahiTzy/E-Medic-SpringBoot-Project.git"
     }
   },
@@ -15,7 +15,7 @@
     "image": "scm",
     "category": "wamp",
     "links": {
-      "view": "#",
+      "view": "https://scmapp-8f061c522612.herokuapp.com/",
       "code": "https://github.com/MahiTzy/smartcontactmanager.git"
     }
   },
@@ -25,7 +25,7 @@
     "image": "oes",
     "category": "wamp",
     "links": {
-      "view": "#",
+      "view": "https://onlinexamapp.onrender.com/",
       "code": "https://github.com/MahiTzy/OnlineExaminationSystem-JSP-MySQL.git"
     }
   },
