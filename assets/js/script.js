@@ -102,54 +102,63 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
+let showAll = false; // Track whether we're showing all projects or just a few
+
+function showProjects(projects, showAll) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.forEach(project => {
+
+    // Show all projects if showAll is true, otherwise show only the first 4
+    const projectsToShow = showAll ? projects : projects.slice(0, 4);
+
+    projectsToShow.forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>`
+            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+            <div class="content">
+                <div class="tag">
+                    <h3>${project.name}</h3>
+                </div>
+                <div class="desc">
+                    <p>${project.desc}</p>
+                    <div class="btns">
+                        <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>`;
     });
+
     projectsContainer.innerHTML = projectHTML;
 
-    // <!-- tilt js effect starts -->
+    // Reinitialize effects after adding new elements
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 10,
     });
-    // <!-- tilt js effect ends -->
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
-    const srtop = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 1000,
-        reset: true
-    });
-
-    /* SCROLL PROJECTS */
+    // Reapply scroll reveal for the new elements
     srtop.reveal('.work .box', { interval: 200 });
-
 }
+
+// Add event listener for the "Show More / Show Less" button
+document.getElementById("toggleBtn").addEventListener("click", function() {
+    showAll = !showAll; // Toggle the showAll state
+
+    fetchData("projects").then(data => {
+        showProjects(data, showAll);
+        // Update button text based on the state
+        document.getElementById("toggleBtn").textContent = showAll ? "Show Less" : "Show More";
+    });
+});
 
 fetchData().then(data => {
     showSkills(data);
 });
 
+// Initial load with limited projects
 fetchData("projects").then(data => {
-    showProjects(data);
+    showProjects(data, showAll); // Initially show limited projects
 });
 
 // <!-- tilt js effect starts -->

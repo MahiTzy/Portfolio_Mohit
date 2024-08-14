@@ -1,9 +1,29 @@
 [
   {
+    "name": "QuizEase : Quiz App",
+    "desc": "A web application for creating and managing quizzes and tests.",
+    "image": "oes",
+    "category": "",
+    "links": {
+      "view": "https://quizease.vercel.app/",
+      "code": "https://github.com/MahiTzy/exam-portal-frontend-angular-2.0"
+    }
+  },
+  {
+    "name": "PostSphere : Blogging Website",
+    "desc": "A web application for creating and managing blogs and articles.",
+    "image": "blog",
+    "category": "",
+    "links": {
+      "view": "https://postsphere.vercel.app/",
+      "code": "https://github.com/MahiTzy/blog-app-frontend-react"
+    }
+  },
+  {
     "name": "E-Medic Website",
     "desc": "A comprehensive web application for making appointments managing medical records and patient information.",
     "image": "emedic",
-    "category": "wamp",
+    "category": "",
     "links": {
       "view": "https://emedicapp-52b343fd56d3.herokuapp.com/",
       "code": "https://github.com/MahiTzy/E-Medic-SpringBoot-Project.git"
@@ -13,27 +33,17 @@
     "name": "Smart Contact Manager",
     "desc": "A web application for managing personal and professional contacts.",
     "image": "scm",
-    "category": "wamp",
+    "category": "",
     "links": {
       "view": "https://scmapp-8f061c522612.herokuapp.com/",
       "code": "https://github.com/MahiTzy/smartcontactmanager.git"
     }
   },
   {
-    "name": "Online Examination System",
-    "desc": "A web-based platform for conducting online exams and assessments.",
-    "image": "oes",
-    "category": "wamp",
-    "links": {
-      "view": "https://onlinexamapp.onrender.com/",
-      "code": "https://github.com/MahiTzy/OnlineExaminationSystem-JSP-MySQL.git"
-    }
-  },
-  {
     "name": "PG-Life Website",
     "desc": "PGLife website is created using React ,PHP for students to search for good accommodation when they join college/university.",
     "image": "pglife",
-    "category": "SCRATCH",
+    "category": "",
     "links": {
       "view": "https://mypglifewebsite.000webhostapp.com/",
       "code": "https://github.com/MahiTzy/PG-Life"
@@ -43,7 +53,7 @@
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
     "image": "prtfolio",
-    "category": "basicweb",
+    "category": "",
     "links": {
       "view": "#",
       "code": "https://github.com/MahiTzy/Portfolio_Mohit"
@@ -53,7 +63,7 @@
     "name": "JavaScript Projects Website",
     "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
     "image": "jsproject",
-    "category": "basicweb",
+    "category": "",
     "links": {
       "view": "https://mahitzy.github.io/JavaScript-Projects/",
       "code": "https://github.com/MahiTzy/JavaScript-Projects"
