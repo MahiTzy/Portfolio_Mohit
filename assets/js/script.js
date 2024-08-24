@@ -56,7 +56,6 @@ $(document).ready(function () {
 
 });
 
-
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
