@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "MOHIT SINGH | PORTFOLIO | WEB DEVELOPER";
+            document.title = "Mohit Singh | Full-Stack Developer";
             $("#icon").attr("href", "assets/images/favicon.ico");
         }
         else {
